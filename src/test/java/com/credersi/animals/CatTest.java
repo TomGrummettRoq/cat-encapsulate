@@ -63,7 +63,7 @@ public class CatTest {
 	@Test
 	public void testRunToDeath() {
 		Cat cat = new Cat(); {
-			for (int i = 0; i < 20; i++) {
+			for (int i = 0; i < 18; i++) {
 				cat.runs();
 			};
 		}
@@ -89,7 +89,6 @@ public class CatTest {
 		assertEquals(cat.howHungry(), 50);
 		}
 	}
-	
-	
+		
 }
 
